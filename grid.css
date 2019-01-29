@@ -1,4 +1,9 @@
 .container {
     display: grid;
-    grid-template-columns: 50px 50px;
+    grid-template-columns: 50px 50px; /*  create colums*/
+    grid-template-rows: 1fr 1fr 1fr;  /*   create rows*/
+    grid-column-gap: 10px; /* add space between column*/
+    grid-gap: 10px 20px; /* If grid-gap has one value, it will create a gap between all rows and columns. However, if there are two values, it will use the first one to set
+                         the gap between the rows and the second value for the columns.*/
+    align-self: end; /*  a way to align an item vertically*/
   }
